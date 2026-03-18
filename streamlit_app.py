@@ -5,7 +5,7 @@ st.set_page_config(page_title="자기소개 페이지", layout="centered")
 st.title("👋 자기소개 페이지")
 
 st.header("이름")
-st.write("홍길동")
+st.write("김태경")
 
 st.header("소개")
 st.write("안녕하세요! 저는 Streamlit을 사용한 웹 인터랙티브 앱을 만들고 있는 개발자입니다. 데이터 시각화와 UI 설계에 관심이 많습니다.")
