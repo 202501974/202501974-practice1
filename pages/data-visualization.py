@@ -1,7 +1,14 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.font_manager as fm
 import plotly.express as px
+
+# 폰트 설정
+font_path = 'fonts/NotoSansKR-Bold.ttf'
+fm.fontManager.addfont(font_path)
+plt.rcParams['font.family'] = 'Noto Sans KR'
+plt.rcParams['axes.unicode_minus'] = False  # 마이너스 기호 깨짐 방지
 
 st.title("데이터 시각화 예시")
 
